@@ -13,7 +13,7 @@ title: Welcome
     </a>
   </h1>
 
-  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
 </article>
 {% endfor %}
 
