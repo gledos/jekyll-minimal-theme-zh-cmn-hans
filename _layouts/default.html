@@ -8,15 +8,20 @@
 </head>
 <body>
 
-  <div id="nav">
-    <a href="{{ site.url }}">{{ site.title }}</a> :.
-
-    <a href="{{ site.url }}/archive.html">Archive</a> |
-
-    <a href="{{ site.url }}/feed.xml">Feed</a> |
-
-    <a href="https://github.com/feedreader/jekyll-minimal-theme">About</a>
-  </div>
+<header class="masthead">
+   <h3 class="masthead-title">
+     <a href="{{ site.url }}">{{ site.title }}</a>
+     <small>
+      <a href="{{ site.url }}/archive.html">Archive</a>
+     </small>
+     <small>
+      <a href="{{ site.url }}/feed.xml">Feed</a>
+     </small>
+     <small>
+      <a href="https://github.com/feedreader/jekyll-minimal-theme">About</a>
+     </small>
+   </h3>
+</header>
 
     <div id="content">
       {{ content }}
