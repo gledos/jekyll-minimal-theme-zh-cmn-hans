@@ -9,9 +9,9 @@ template command to (auto-)download Datafile scripts from the new
 
 For example, to build yourself a copy of the `worldcup2014.db` type: 
 
-```
+~~~
 $ sportdb new worldcup2014 
-```
+~~~
 
 The new command will run these steps: 
 
