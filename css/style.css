@@ -18,7 +18,9 @@ a {
   color: #268bd2;
   text-decoration: none;
 }
-
+a strong {
+  color: inherit;
+}
 a:hover,
 a:focus {
   text-decoration: underline;
