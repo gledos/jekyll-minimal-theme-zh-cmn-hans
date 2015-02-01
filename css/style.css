@@ -1,7 +1,7 @@
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -92,21 +92,16 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+  /* color: #bf616a; */
+  /* background-color: #f9f9f9; */
+  /* border-radius: 3px; */
 }
 pre {
-  display: block;
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
   background-color: #f9f9f9;
 }
 pre code {
@@ -127,6 +122,7 @@ blockquote {
 blockquote p:last-child {
   margin-bottom: 0;
 }
+
 
 
 img {
@@ -157,6 +153,19 @@ tbody tr:nth-child(odd) th {
 
 
 
+/*************************
+ * Container
+ * -- Center the page content.
+ */
+
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
 /*******************************
  * Masthead
  */
@@ -180,5 +189,31 @@ tbody tr:nth-child(odd) th {
   font-size: 75%;
   font-weight: 400;
   letter-spacing: 0;
+}
+
+
+/**************************
+ * Posts
+ */
+
+.post {
+  margin-bottom: 4em;
+}
+
+/* Blog title */
+.post-title,
+.post-title a {
+  color: #303030;
+}
+.post-title {
+  margin-top: 0;
+}
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top:  -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
 }
 
