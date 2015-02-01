@@ -56,3 +56,79 @@ author:
   name:  'Jekyll Minimal Theme Team'
 ```
 
+
+## Color n Typography Settings (in `css/_settings.scss`)
+
+Typography (Fonts):
+
+~~~
+$font-family:       "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$code-font-family:  Menlo, Monaco, "Courier New", monospace;
+~~~
+
+Colors:
+
+~~~
+$masthead-color:         #505050;
+$masthead-small-color:   #C0C0C0;
+
+$post-title-color:       #303030;
+$post-date-color:        #9a9a9a;
+
+
+$body-color:            #515151;
+$body-background-color: #fff;
+
+$link-color:            #268bd2;
+
+$headings-color:        #313131;    // h1,h2,h3,h4,h5,h6
+
+$strong-color:          #303030;    // strong
+
+$pre-background-color:  #f9f9f9;    // pre
+
+$blockquote-color:        #7a7a7a;  // blockquote
+$blockquote-border-color: #e5e5e5;
+
+$table-border-color:         #e5e5e5;
+$table-odd-background-color: #f9f9f9;
+~~~
+
+A big thanks to the Poole theme; the `jekyll-minimal-theme` started out w/
+the typography and color settings from the Poole theme.
+
+
+## Alternative (Minimal) Jekyll Themes
+
+- Poole Theme [(Source)](https://github.com/poole/poole) by Mark Otto
+
+- Pixyll Theme [(Source)](https://github.com/johnotander/pixyll) by John Otander
+
+~~~
+in _main.scss:
+  font-family:     "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  code-font-family: Menlo, Monaco, "Courier New", monospace;
+  h1-h6|button|form|pagination|footer -font-family:
+                   'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+
+in _basscss.scss:
+  font-family:       'Helvetica Neue', Helvetica, sans-serif;
+~~~
+
+- Hikari Theme [(Source](https://github.com/m3xm/hikari-for-Jekyll) by Mathieu Mayer-Mazzoli
+
+~~~
+in components/_syntax.scss:
+  code-font-family:    'Courier', monospace;
+in base/_variables.scss:
+  font-family:         'Open Sans', sans-serif;
+  variant-font-family: 'Lora', Georgia, serif;
+in base/_global.scss:
+  h1-h6-font-family:  'Open Sans', sans-serif;
+in base/_reset.scss:
+  font-family:         sans-serif;
+  code-font-family:    monospace, monospace;
+~~~
+
+
