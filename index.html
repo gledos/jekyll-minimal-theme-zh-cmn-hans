@@ -3,9 +3,9 @@ layout: default
 title: Welcome
 ---
 
-<div class='posts'>
 
 {% for post in site.posts %}
+
 <article class='post'>
   <h1 class='post-title'>
     <a href="{{ site.url }}{{ post.url }}">
@@ -15,6 +15,6 @@ title: Welcome
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
   {{ post.content }}
 </article>
+
 {% endfor %}
 
-</div><!-- .posts -->

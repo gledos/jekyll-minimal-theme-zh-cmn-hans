@@ -3,18 +3,17 @@ layout: default
 title: Archive
 ---
 
-<div class='posts'>
+<h1>Archive</h1>
 
+<ul>
 {% for post in site.posts %}
-<article class='post'>
-  <h1 class='post-title'>
+  <li>
+    {{ post.date | date: "%b %-d, %Y" }}
+       » 
     <a href="{{ site.url }}{{ post.url }}">
       {{ post.title }}
     </a>
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-</article>
+  </li>
 {% endfor %}
-
-</div><!-- .posts -->
+</ul>
 
