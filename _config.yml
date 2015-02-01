@@ -12,6 +12,11 @@ author:
 
 markdown: kramdown
 
+sass:
+  sass_dir: css
+  style:    expanded
+
+
 
 exclude:
 - README.md

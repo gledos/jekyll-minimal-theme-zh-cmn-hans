@@ -1,13 +1,22 @@
+---
+###########
+# note: will result in an all-in-one-file stylesheet e.g. style.css
+###########
+---
+
+
+@import 'settings';
+
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family;
   font-size: 20px;
   line-height: 1.5;
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color:            $body-color;
+  background-color: $body-background-color;
 }
 
 /**************
@@ -15,15 +24,17 @@ body {
  */
 
 a {
-  color: #268bd2;
+  color:           $link-color;
   text-decoration: none;
-}
-a strong {
-  color: inherit;
-}
-a:hover,
-a:focus {
-  text-decoration: underline;
+
+  strong {
+    color: inherit;
+  }
+  
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 
@@ -35,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color:       $headings-color;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -64,7 +75,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: $strong-color;
 }
 
 /* Lists */
@@ -87,42 +98,41 @@ dd {
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: $code-font-family;
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
-  /* color: #bf616a; */
-  /* background-color: #f9f9f9; */
-  /* border-radius: 3px; */
 }
+
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
+  background-color: $pre-background-color;
+
+  code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+  }
+}  
 
 
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
-}
-blockquote p:last-child {
-  margin-bottom: 0;
-}
+  color: $blockquote-color;
+  border-left: .25rem solid $blockquote-border-color;
 
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
 
 
 img {
@@ -138,17 +148,19 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $table-border-color;
   border-collapse: collapse;
-}
-td,
-th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+
+  td,
+  th {
+   padding: .25rem .5rem;
+   border: 1px solid $table-border-color;
+  }
+
+  tr:nth-child(odd) td,
+  tr:nth-child(odd) th {
+    background-color: $table-odd-background-color;
+  }
 }
 
 
@@ -174,21 +186,23 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
 
-.masthead-title small {
-  color: #C0C0C0;
-  font-size: 75%;
-  font-weight: 400;
-  letter-spacing: 0;
+ .masthead-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $masthead-color;
+  
+    a {
+      color: $masthead-color;
+    }
+    
+    small {
+      color: $masthead-small-color;
+      font-size: 75%;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+  }
 }
 
 
@@ -203,8 +217,9 @@ tbody tr:nth-child(odd) th {
 /* Blog title */
 .post-title,
 .post-title a {
-  color: #303030;
+  color: $post-title-color;
 }
+
 .post-title {
   margin-top: 0;
 }
@@ -214,6 +229,6 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top:  -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: $post-date-color;
 }
 

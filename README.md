@@ -15,7 +15,8 @@ Another minimial Jekyll theme  - [(Live Demo)](http://feedreader.github.io/jekyl
 |   ├── default.html                   # master layout template
 |   └── post.html                      # blog post template
 ├── css                               
-|   └── style.css                      # styles for pages
+|   ├── _settings.scss                 # style settings (e.g. variables)
+|   └── style.scss                     # master style page
 ├── feed.xml                           # web feed template (e.g. in atom format)
 ├── archive.html                       # archive template
 └── index.html                         # index template
