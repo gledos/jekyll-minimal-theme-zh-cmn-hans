@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>{{ page.title }} - {{ site.title }}</title>
+   <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" >
+   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="News Feed">
+</head>
+<body>
+
+  <div id="nav">
+    <a href="{{ site.url }}">{{ site.title }}</a> :.
+
+    <a href="{{ site.url }}/archive.html">Archive</a> |
+
+    <a href="{{ site.url }}/feed.xml">Feed</a> |
+
+    <a href="https://github.com/feedreader/jekyll-minimal-theme">About</a>
+  </div>
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+</body>
+</html>
