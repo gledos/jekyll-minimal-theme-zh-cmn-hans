@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Added `football.db` Quick Starter Datafile Templates - `$ sportdb new <name>`"
+title: "Added football.db Quick Starter Datafile Templates - $ sportdb new worldcup"
 ---
 
 The sportdb command line tool now includes a new quick starter
@@ -13,7 +13,7 @@ For example, to build yourself a copy of the `worldcup2014.db` type:
 $ sportdb new worldcup2014 
 ~~~
 
-The new command will run these steps: 
+The new command will run these steps:
 
 - Step 1: Download `worldcup2014.rb` Datafile (from GitHub) to your 
     working folder as `./Datafile`

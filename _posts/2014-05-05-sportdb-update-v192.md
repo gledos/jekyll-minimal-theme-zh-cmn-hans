@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sportdb Update v1.9.2 - Added Match Goals Reader e.g. `[Messi 3', 45+1']` etc."
+title: "sportdb Update v1.9.2 - Added Match Goals Reader e.g. [Messi 3', 45+1']"
 ---
 
 

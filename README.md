@@ -22,27 +22,17 @@ Another minimial Jekyll theme  - [(Live Demo)](http://feedreader.github.io/jekyl
 └── index.html                         # index template
 ```
 
-will result in (with `permalink: date`):
+will result in (with `permalink: /:title.html`):
 
 ```
 └── _site                                  # output build folder; site gets generated here
     ├── css                               
     |   └── style.css                      # styles for pages (copied 1:1 as is)
-    ├── 2014
-    |   ├── 05
-    |   |   └── 05
-    |   |       └── sportdb-update-v192.html  # blog post page
-    |   ├── 10
-    |   |   ├── 14
-    |   |   |   └── sportdb-update-v192.html  # another blog post page
-    |   |   └── 21
-    |   |       └── sql-views.html
-    |   ├── 11
-    |   |   └── 11
-    |   |       └── new-repo-maps.html
-    |   └── 12
-    |       └── 15
-    |           └── quick-starter-datafiles.html
+    ├── sportdb-update-v192.html           # blog post page
+    ├── new-repo-baviria-bayern.html       # another blog post page
+    ├── sql-views.html                     #  ""
+    ├── new-repo-maps.html                 #  ""
+    ├── quick-starter-datafiles.html       #  ""
     ├── feed.xml                           # web feed (e.g. in atom format)
     ├── archive.html                       # archive page
     └── index.html                         # index page
