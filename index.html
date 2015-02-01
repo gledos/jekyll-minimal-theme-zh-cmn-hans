@@ -12,8 +12,8 @@ title: Welcome
       {{ post.title }}
     </a>
   </h1>
-
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  {{ content }}
 </article>
 {% endfor %}
 
