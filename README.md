@@ -101,9 +101,9 @@ the typography and color settings from the Poole theme.
 
 ## Alternative (Minimal) Jekyll Themes
 
-- Poole Theme - [(Source)](https://github.com/poole/poole) by Mark Otto
+- Poole Theme by Mark Otto - [(Source)](https://github.com/poole/poole)
 
-- Pixyll Theme - [(Source)](https://github.com/johnotander/pixyll) by John Otander
+- Pixyll Theme by John Otander - [(Source)](https://github.com/johnotander/pixyll)
 
 ~~~
 in _main.scss:
@@ -116,7 +116,7 @@ in _basscss.scss:
   font-family:       'Helvetica Neue', Helvetica, sans-serif;
 ~~~
 
-- Hikari Theme - [(Source)](https://github.com/m3xm/hikari-for-Jekyll) by Mathieu Mayer-Mazzoli
+- Hikari Theme by Mathieu Mayer-Mazzoli - [(Source)](https://github.com/m3xm/hikari-for-Jekyll)
 
 ~~~
 in components/_syntax.scss:
