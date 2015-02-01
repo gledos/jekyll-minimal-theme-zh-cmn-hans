@@ -1,11 +1,11 @@
 # jekyll-minimal-theme
 
 
-Another minimial Jekyll theme  - [(Live Demo)](http://feedreader.github.io/jekyll-minimal-theme/)
+Another minimial Jekyll theme  - [Live Demo @ `feedreader.github.io/jekyll-minimal-theme` »](http://feedreader.github.io/jekyll-minimal-theme/)
 
 ```
 ├── _config.yml                               # site configuration
-├── _posts                                    # blog posts
+├── _posts                                    # sample blog posts
 |   ├── 2014-05-05-sportdb-update-v192.md     #   filename format:
 |   ├── 2014-10-10-new-repo-baviria-bayern.md #    => YEAR-MONTH-DAY-TITLE.MARKUP
 |   ├── 2014-10-21-sql-views.md
@@ -13,7 +13,7 @@ Another minimial Jekyll theme  - [(Live Demo)](http://feedreader.github.io/jekyl
 |   └── 2014-12-15-quick-starter-datafiles.md
 ├── _layouts                           
 |   ├── default.html                   # master layout template
-|   └── post.html                      # blog post template
+|   └── post.html                      # single blog post template
 ├── css                               
 |   ├── _settings.scss                 # style settings (e.g. variables)
 |   └── style.scss                     # master style page
@@ -25,17 +25,17 @@ Another minimial Jekyll theme  - [(Live Demo)](http://feedreader.github.io/jekyl
 will result in (with `permalink: /:title.html`):
 
 ```
-└── _site                                  # output build folder; site gets generated here
-    ├── css                               
-    |   └── style.css                      # styles for pages (copied 1:1 as is)
-    ├── sportdb-update-v192.html           # blog post page
-    ├── new-repo-baviria-bayern.html       # another blog post page
-    ├── sql-views.html                     #  ""
-    ├── new-repo-maps.html                 #  ""
-    ├── quick-starter-datafiles.html       #  ""
-    ├── feed.xml                           # web feed (e.g. in atom format)
-    ├── archive.html                       # archive page
-    └── index.html                         # index page
+└── _site                                # output build folder; site gets generated here
+    ├── css
+    |   └── style.css                    # styles for pages (copied 1:1 as is)
+    ├── sportdb-update-v192.html         # blog post page
+    ├── new-repo-baviria-bayern.html     # another blog post page
+    ├── sql-views.html                   #  ""
+    ├── new-repo-maps.html               #  ""
+    ├── quick-starter-datafiles.html     #  ""
+    ├── feed.xml                         # web feed (e.g. in atom format)
+    ├── archive.html                     # archive page
+    └── index.html                       # index page
 ```
 
 
