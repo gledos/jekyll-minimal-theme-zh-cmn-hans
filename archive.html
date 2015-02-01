@@ -5,15 +5,15 @@ title: Archive
 
 <h1>Archive</h1>
 
-<ul>
 {% for post in site.posts %}
-  <li>
-    {{ post.date | date: "%b %-d, %Y" }}
-       » 
-    <a href="{{ site.url }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </li>
+
+<div>
+  {{ post.date | date: "%b %-d, %Y" }}
+     » 
+  <a href="{{ site.url }}{{ post.url }}">
+    {{ post.title }}
+  </a>
+</div>
+
 {% endfor %}
-</ul>
 
