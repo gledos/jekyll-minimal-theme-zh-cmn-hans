@@ -8,11 +8,13 @@ title: Archive
 {% for post in site.posts %}
 
 <div>
-  {{ post.date | date: "%b %-d, %Y" }}
-     » 
-  <a href="{{ site.url }}{{ post.url }}">
-    {{ post.title }}
-  </a>
+  <span class='post-date'>
+    {{ post.date | date: "%b %-d, %Y" }}
+    »
+  </span>
+  <span class='post-title'>
+    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+  </span>
 </div>
 
 {% endfor %}
