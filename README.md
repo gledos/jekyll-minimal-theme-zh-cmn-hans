@@ -3,7 +3,7 @@
 It's another minimal(istic) Jekyll static site generator theme,
 that is, a ready-to-fork template pack.
 
-See a live demo @ [`planetjekyll.github.io/jekyll-minimal-theme` »](http://planetjekyll.github.io/jekyll-minimal-theme/)
+See a live demo @ [`drjekyllthemes.github.io/jekyll-minimal-theme` »](http://drjekyllthemes.github.io/jekyll-minimal-theme/)
 
 For example:
 
