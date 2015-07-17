@@ -2,13 +2,16 @@
 # site.title, site.url, site.author.name
 
 title:   'Jekyll Minimal Theme'
-
-## was:
-#   url:     'http://drjekyllthemes.github.io/jekyll-minimal-theme'
-#  use absolute path (without https/http for now to make it work with both
-url: /jekyll-minimal-theme  
 author:
   name:  'Jekyll Minimal Theme Team'
+
+## note: 
+#  use site.path in your templates to make it work for both protocolls e.g. http and https
+#  use site.url only inside the web feed template (full url incl. protocol required)
+path: /jekyll-minimal-theme  
+url:  'http://drjekyllthemes.github.io/jekyll-minimal-theme'
+
+
 
 
 ########
