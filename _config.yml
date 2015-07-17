@@ -2,7 +2,11 @@
 # site.title, site.url, site.author.name
 
 title:   'Jekyll Minimal Theme'
-url:     'http://drjekyllthemes.github.io/jekyll-minimal-theme'
+
+## was:
+#   url:     'http://drjekyllthemes.github.io/jekyll-minimal-theme'
+#  use absolute path (without https/http for now to make it work with both
+url: /jekyll-minimal-theme  
 author:
   name:  'Jekyll Minimal Theme Team'
 
