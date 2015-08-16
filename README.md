@@ -132,3 +132,16 @@ in base/_reset.scss:
 ~~~
 
 
+### More Themes
+
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
+### More Quick Starter Wizard Scripts
+
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+
+
+## Questions? Comments?
+
+Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
+Thanks!
