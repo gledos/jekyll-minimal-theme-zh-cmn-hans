@@ -3,7 +3,7 @@
 It's another minimal(istic) Jekyll static site generator theme,
 that is, a ready-to-fork template pack.
 
-See a live demo @ [`drjekyllthemes.github.io/jekyll-minimal-theme` »](http://drjekyllthemes.github.io/jekyll-minimal-theme/)
+See a live demo @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
 
 For example:
 
@@ -51,7 +51,7 @@ and `site.url`:
 
 ```
 title:   'Jekyll Minimal Theme'
-url:     'http://drjekyllthemes.github.io/jekyll-minimal-theme'
+url:     'http://henrythemes.github.io/jekyll-minimal-theme'
 author:
   name:  'Jekyll Minimal Theme Team'
 ```
