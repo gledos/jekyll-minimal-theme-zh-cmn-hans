@@ -141,6 +141,10 @@ See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
 See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
 
 
+## License
+
+The theme and scripts are dedicated to the public domain. Use it as you please with no restrictions whatsoever.
+
 ## Questions? Comments?
 
 Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
