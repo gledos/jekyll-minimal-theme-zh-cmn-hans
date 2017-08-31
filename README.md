@@ -1,6 +1,4 @@
-注意，汉化正在进行中
-
-[源项目](https://github.com/henrythemes/jekyll-minimal-theme)
+注意，汉化正在进行中 | [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
 
 以下是原 README.md 的汉化后的内容
 
@@ -9,7 +7,7 @@
 这是又一个极简(风格)的Jekyll静态站点生成器主题，
 也就是说，一个现成的主题模板包。
 
-查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/)
+查看在线演示 @ [`gledos.science/jekyll-minimal-theme-zh-cmn-hans` »](http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/)
 
 ---
 
