@@ -52,8 +52,7 @@
 
 ## 使用方法
 
-首先删除`_posts`文件夹中的所有示例文章
-然后更改`_config.yml`中的设置以使用您自己的`site.title`和`site.url`：
+首先删除`_posts`文件夹中的所有示例文章，然后更改`_config.yml`中的设置以使用您自己的`site.title`和`site.url`：
 
 ```
 title:   'Jekyll Minimal Theme'
