@@ -9,7 +9,7 @@
 这是又一个极简(风格)的Jekyll静态站点生成器主题，
 也就是说，一个现成的主题模板包。
 
-查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
+查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/)
 
 ---
 
@@ -19,8 +19,8 @@
 ├── _config.yml                # 网站配置
 ├── _posts                     # 暂时储存着一些博客文章模板用作演示
 |   ├── 2014-05-05-sportdb-update-v192.md
-|   ├── 2014-10-10-new-repo-ba-bay.md       # 文件名格式:
-|   ├── 2014-10-21-sql-views.md             # => 年-月-日-标题.格式
+|   ├── 2014-10-10-new-repo-ba-bay.md     # 文件名格式:
+|   ├── 2014-10-21-sql-views.md           # => 年-月-日-标题.格式
 |   ├── 2014-11-11-new-reop-maps.md
 |   └── 2014-12-15-quick-starter-datafiles.md
 ├── _layouts
@@ -102,8 +102,6 @@ $table-odd-background-color: #f9f9f9;
 ~~~
 
 非常感谢Poole主题 (Poole theme); `jekyll-minimal-theme` 始于Poole主题的排版和颜色设置。
-
-## Alternative (Minimal) Jekyll Themes
 
 ## 其他的 (极简) Jekyll主题
 
