@@ -7,43 +7,45 @@
 这是又一个极简(风格)的Jekyll静态站点生成器主题，
 也就是说，一个现成的主题模板包。
 
-See a live demo @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
+查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
 
-For example:
+---
+
+举例:
 
 ```
-├── _config.yml                               # site configuration
-├── _posts                                    # sample blog posts
-|   ├── 2014-05-05-sportdb-update-v192.md     #   filename format:
-|   ├── 2014-10-10-new-repo-baviria-bayern.md #    => YEAR-MONTH-DAY-TITLE.MARKUP
-|   ├── 2014-10-21-sql-views.md
+├── _config.yml                # 网站配置
+├── _posts                        # 暂时储存着一些博客文章模板用作演示
+|   ├── 2014-05-05-sportdb-update-v192.md
+|   ├── 2014-10-10-new-repo-ba-bay.md          # 文件名格式:
+|   ├── 2014-10-21-sql-views.md             # => 年-月-日-标题.格式
 |   ├── 2014-11-11-new-reop-maps.md
 |   └── 2014-12-15-quick-starter-datafiles.md
-├── _layouts                           
-|   ├── default.html                   # master layout template
-|   └── post.html                      # single blog post template
-├── css                               
-|   ├── _settings.scss                 # style settings (e.g. variables)
-|   └── style.scss                     # master style page
-├── feed.xml                           # web feed template (e.g. in atom format)
-├── archive.html                       # archive template
-└── index.html                         # index template
+├── _layouts
+|   ├── default.html         # 主布局模板
+|   └── post.html              # 单一博客模板
+├── css
+|   ├── _settings.scss        # 风格设置(例如变量)
+|   └── style.scss              # 主风格页面
+├── feed.xml                    # web订阅源模板(如atom格式)
+├── archive.html              # 归档文件模板
+└── index.html                 # 主页模板
 ```
 
-will result in (with `permalink: /:title.html`):
+将会生成出 `固定链接: /:title.html`:
 
 ```
-└── _site                                # output build folder; site gets generated here
+└── _site                                 # 输出生成文件夹; 网站在此生成
     ├── css
-    |   └── style.css                    # styles for pages (copied 1:1 as is)
-    ├── sportdb-update-v192.html         # blog post page
-    ├── new-repo-baviria-bayern.html     # another blog post page
-    ├── sql-views.html                   #  ""
-    ├── new-repo-maps.html               #  ""
-    ├── quick-starter-datafiles.html     #  ""
-    ├── feed.xml                         # web feed (e.g. in atom format)
-    ├── archive.html                     # archive page
-    └── index.html                       # index page
+    |   └── style.css                   # 页面样式（按原样复制1：1）
+    ├── sportdb-update-v192.html           # 博客文章页面
+    ├── new-repo-baviria-bayern.html     # 另一个博客网站页面
+    ├── sql-views.html               #  ""
+    ├── new-repo-maps.html      #  ""
+    ├── quick-starter-datafiles.html        #  ""
+    ├── feed.xml                        # web订阅源（如atom格式）
+    ├── archive.html                  # archive page
+    └── index.html                     # index page
 ```
 
 
