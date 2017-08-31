@@ -4,8 +4,8 @@
 
 # 什么是 `jekyll-极简主题`?
 
-It's another minimal(istic) Jekyll static site generator theme,
-that is, a ready-to-fork template pack.
+这是又一个极简(风格)的Jekyll静态站点生成器主题，
+也就是说，一个现成的主题模板包。
 
 See a live demo @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
 
