@@ -1,6 +1,8 @@
-注意，还没有完成
+注意，汉化正在进行中
 
-以下是原 README.md 的内容
+[源项目](https://github.com/henrythemes/jekyll-minimal-theme)
+
+以下是原 README.md 的汉化后的内容
 
 # 什么是 `jekyll-极简主题`?
 
@@ -15,37 +17,37 @@
 
 ```
 ├── _config.yml                # 网站配置
-├── _posts                        # 暂时储存着一些博客文章模板用作演示
+├── _posts                     # 暂时储存着一些博客文章模板用作演示
 |   ├── 2014-05-05-sportdb-update-v192.md
-|   ├── 2014-10-10-new-repo-ba-bay.md          # 文件名格式:
+|   ├── 2014-10-10-new-repo-ba-bay.md       # 文件名格式:
 |   ├── 2014-10-21-sql-views.md             # => 年-月-日-标题.格式
 |   ├── 2014-11-11-new-reop-maps.md
 |   └── 2014-12-15-quick-starter-datafiles.md
 ├── _layouts
-|   ├── default.html         # 主布局模板
+|   ├── default.html           # 主布局模板
 |   └── post.html              # 单一博客模板
 ├── css
-|   ├── _settings.scss        # 风格设置(例如变量)
-|   └── style.scss              # 主风格页面
-├── feed.xml                    # web订阅源模板(如atom格式)
-├── archive.html              # 归档文章
+|   ├── _settings.scss         # 风格设置(例如变量)
+|   └── style.scss             # 主风格页面
+├── feed.xml                   # web订阅源模板(如atom格式)
+├── archive.html               # 归档文章
 └── index.html                 # 主页模板
 ```
 
 将会生成出
 
 ```
-└── _site                                 # 输出生成文件夹; 网站在此生成
+└── _site                           # 输出生成文件夹; 网站在此生成
     ├── css
-    |   └── style.css                   # 页面样式（按原样复制1：1）
-    ├── sportdb-update-v192.html           # 博客文章页面
+    |   └── style.css               # 页面样式（按原样复制1：1）
+    ├── sportdb-update-v192.html    # 博客文章页面
     ├── new-repo-ba-bay.md.html     # 另一个博客网站页面
-    ├── sql-views.html               #  ""
-    ├── new-repo-maps.html      #  ""
-    ├── quick-starter-datafiles.html        #  ""
-    ├── feed.xml                        # web订阅源（如atom格式）
-    ├── archive.html                  # 归档文章
-    └── index.html                     # 主页
+    ├── sql-views.html              
+    ├── new-repo-maps.html          
+    ├── quick-starter-datafiles.html    
+    ├── feed.xml                    # web订阅源（如atom格式）
+    ├── archive.html                # 归档文章
+    └── index.html                  # 主页
 ```
 
 ## 使用方法
