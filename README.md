@@ -55,7 +55,7 @@
 首先删除`_posts`文件夹中的所有示例文章，然后更改`_config.yml`中的设置以使用您自己的`site.title`和`site.url`：
 
 ```
-title:   'Jekyll Minimal Theme'
+title:   'Jekyll Minimal Theme 中文简体版'
 url:     'http://henrythemes.github.io/jekyll-minimal-theme'
 author:
   name:  'Jekyll Minimal Theme Team'
