@@ -1,19 +1,18 @@
 ###########
 # site.title, site.url, site.author.name
 
-title:   'Jekyll Minimal Theme'
+title:   'Jekyll Minimal Theme 汉化版'
 author:
   name:  'Jekyll Minimal Theme Team'
 
-## note: 
-#  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: /jekyll-minimal-theme  
-url:  'http://henrythemes.github.io/jekyll-minimal-theme'
-
+## 提示: 
+#  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
+#  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
+path: /jekyll-minimal-theme-zh-cmn-hans
+url:  'http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/'
 
 ########
-# more settings
+# 更多设置
 
 markdown: kramdown
 
@@ -26,7 +25,5 @@ permalink: /:title.html
 exclude:
 - README.md
 
-
 safe: true
 lsi: false
-
