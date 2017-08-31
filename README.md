@@ -1,6 +1,4 @@
-注意，还没有完成中文简体化
-
-[原项目地址](https://github.com/henrythemes/jekyll-minimal-theme/)
+注意，还没有完成
 
 以下是原 README.md 的内容
 
@@ -9,7 +7,7 @@
 这是又一个极简(风格)的Jekyll静态站点生成器主题，
 也就是说，一个现成的主题模板包。
 
-查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme "中文简体化正在进行")
+查看在线演示 @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
 
 ---
 
@@ -65,8 +63,6 @@ author:
 
 ## Color n Typography Settings (in `css/_settings.scss`)
 
-## 颜色无印刷术设置（在 `css/_settings.scss`）
-
 排版（字体）：
 
 ~~~
@@ -103,16 +99,15 @@ $table-border-color:         #e5e5e5;
 $table-odd-background-color: #f9f9f9;
 ~~~
 
-A big thanks to the Poole theme; the `jekyll-minimal-theme` started out w/
-the typography and color settings from the Poole theme.
-
-非常感谢Poole主题 (Poole theme); `jekyll-minimal-theme` 开始于Poole主题的排版和颜色设置。
+非常感谢Poole主题 (Poole theme); `jekyll-minimal-theme` 始于Poole主题的排版和颜色设置。
 
 ## Alternative (Minimal) Jekyll Themes
 
-- Poole Theme by Mark Otto - [(Source)](https://github.com/poole/poole)
+## 其他的 (极简) Jekyll主题
 
-- Pixyll Theme by John Otander - [(Source)](https://github.com/johnotander/pixyll)
+- Poole Theme by Mark Otto - [(源代码)](https://github.com/poole/poole)
+
+- Pixyll Theme by John Otander - [(源代码)](https://github.com/johnotander/pixyll)
 
 ~~~
 in _main.scss:
@@ -125,7 +120,7 @@ in _basscss.scss:
   font-family:       'Helvetica Neue', Helvetica, sans-serif;
 ~~~
 
-- Hikari Theme by Mathieu Mayer-Mazzoli - [(Source)](https://github.com/m3xm/hikari-for-Jekyll)
+- Hikari Theme by Mathieu Mayer-Mazzoli - [(源代码)](https://github.com/m3xm/hikari-for-Jekyll)
 
 ~~~
 in components/_syntax.scss:
@@ -141,131 +136,21 @@ in base/_reset.scss:
 ~~~
 
 
-### More Themes
+### 更多主题
 
-See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+查看 [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) 的目录。
 
-### More Quick Starter Wizard Scripts
+### 更多的快速入门向导脚本
 
-See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
-
-
-## License
-
-![](https://publicdomainworks.github.io/buttons/zero88x31.png)
-The theme and scripts are dedicated to the public domain. Use it as you please with no restrictions whatsoever.
-
-## Questions? Comments?
-
-Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
-Thanks!
+查看 [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) 的库。
 
 
+## License / 许可证
 
-## Usage
+![CC0协议](https://publicdomainworks.github.io/buttons/zero88x31.png)
+主题和脚本专用于公共领域。 尽可能地使用它，不受任何限制。
 
-To use - delete all sample posts in the `_posts` folder and
-change the settings in `_config.yml` to use your own `site.title`
-and `site.url`:
+## 有问题和意见？
 
-```
-title:   'Jekyll Minimal Theme'
-url:     'http://henrythemes.github.io/jekyll-minimal-theme'
-author:
-  name:  'Jekyll Minimal Theme Team'
-```
-
-
-## Color n Typography Settings (in `css/_settings.scss`)
-
-Typography (Fonts):
-
-~~~
-$font-family:       "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-$code-font-family:  Menlo, Monaco, "Courier New", monospace;
-~~~
-
-Colors:
-
-~~~
-$masthead-color:         #505050;
-$masthead-small-color:   #C0C0C0;
-
-$post-title-color:       #303030;
-$post-date-color:        #9a9a9a;
-
-
-$body-color:            #515151;
-$body-background-color: #fff;
-
-$link-color:            #268bd2;
-
-$headings-color:        #313131;    // h1,h2,h3,h4,h5,h6
-
-$strong-color:          #303030;    // strong
-
-$pre-background-color:  #f9f9f9;    // pre
-
-$blockquote-color:        #7a7a7a;  // blockquote
-$blockquote-border-color: #e5e5e5;
-
-$table-border-color:         #e5e5e5;
-$table-odd-background-color: #f9f9f9;
-~~~
-
-A big thanks to the Poole theme; the `jekyll-minimal-theme` started out w/
-the typography and color settings from the Poole theme.
-
-
-## Alternative (Minimal) Jekyll Themes
-
-- Poole Theme by Mark Otto - [(Source)](https://github.com/poole/poole)
-
-- Pixyll Theme by John Otander - [(Source)](https://github.com/johnotander/pixyll)
-
-~~~
-in _main.scss:
-  font-family:     "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-  code-font-family: Menlo, Monaco, "Courier New", monospace;
-  h1-h6|button|form|pagination|footer -font-family:
-                   'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-
-in _basscss.scss:
-  font-family:       'Helvetica Neue', Helvetica, sans-serif;
-~~~
-
-- Hikari Theme by Mathieu Mayer-Mazzoli - [(Source)](https://github.com/m3xm/hikari-for-Jekyll)
-
-~~~
-in components/_syntax.scss:
-  code-font-family:    'Courier', monospace;
-in base/_variables.scss:
-  font-family:         'Open Sans', sans-serif;
-  variant-font-family: 'Lora', Georgia, serif;
-in base/_global.scss:
-  h1-h6-font-family:  'Open Sans', sans-serif;
-in base/_reset.scss:
-  font-family:         sans-serif;
-  code-font-family:    monospace, monospace;
-~~~
-
-
-### More Themes
-
-See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
-
-### More Quick Starter Wizard Scripts
-
-See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
-
-
-## License
-
-![](https://publicdomainworks.github.io/buttons/zero88x31.png)
-The theme and scripts are dedicated to the public domain. Use it as you please with no restrictions whatsoever.
-
-## Questions? Comments?
-
-Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
-Thanks!
+发送他们到 [wwwmake forum](http://groups.google.com/group/wwwmake).
+谢谢！
