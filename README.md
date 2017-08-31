@@ -1,4 +1,8 @@
-# What's `jekyll-minimal-theme`?
+注意，还没有完成
+
+以下是原 README.md 的内容
+
+# 什么是 `jekyll-极简主题`?
 
 It's another minimal(istic) Jekyll static site generator theme,
 that is, a ready-to-fork template pack.
