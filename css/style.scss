@@ -1,7 +1,7 @@
 ---
 ###########
 # note: will result in an all-in-one-file stylesheet e.g. style.css
-# 原本字体大小是 20px
+# 原本字体大小是 20px ;
 ###########
 ---
 
@@ -11,7 +11,7 @@
 
 html {
   font-family: $font-family;
-  font-size:   14px;
+  font-size:   100%;
   line-height: 1.5;
 }
 
@@ -171,9 +171,10 @@ table {
 ////////////////////////////////
 //  Container
 //   -- centers page content
+//  原 max-width 为 38rem
 
 .container {
-  max-width: 38rem;
+  max-width: 55rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -182,11 +183,12 @@ table {
 
 ///////////////////////////////////////////////////
 //  Masthead
+//  原 margin-bottom 为 3rem
 
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
  .masthead-title {
     margin-top: 0;
