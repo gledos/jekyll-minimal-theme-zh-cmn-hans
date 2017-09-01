@@ -1,8 +1,8 @@
 ///////////////////////////////////////
 // css theme variables / settings
+// 增加了中文字体，字体的选择参考了: https://segmentfault.com/a/1190000006110417
 
-
-$font-family:       "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family:       "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Serif CJK SC", sans-serif;
 
 $code-font-family:  Menlo, Monaco, "Courier New", monospace;
 
@@ -30,5 +30,3 @@ $blockquote-border-color: #e5e5e5;
 
 $table-border-color:         #e5e5e5;
 $table-odd-background-color: #f9f9f9;
-
-
