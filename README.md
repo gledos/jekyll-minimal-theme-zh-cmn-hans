@@ -1,6 +1,10 @@
-注意，汉化正在进行中 | [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
+> ├── [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
+>
+> ├── **原 README.md 的汉化后的内容**
+>
+> └── [汉化内容](#汉化内容)
 
-以下是原 README.md 的汉化后的内容
+
 
 # 什么是 `jekyll-极简主题`?
 
@@ -151,3 +155,9 @@ in base/_reset.scss:
 
 发送他们到 [wwwmake forum](http://groups.google.com/group/wwwmake).
 谢谢！
+
+---
+
+# 汉化内容
+
+待续
