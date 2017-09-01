@@ -4,8 +4,8 @@ layout: default
 
 <article class='post'>
   <h1 class='post-title'>{{ page.title }}</h1>
-  {% assign path_date_233 = page.path | split: "-" %}
-  <div class="post-date">{{ path_date_233 | remove: "_posts/" | remove: path_date_233.last }}</div>
+  {% assign path_date_233 = page.path | remove: "_posts/" | split: "-" %}
+  <div class="post-date">{{ path_date_233[0] }}-{{ path_date_233[1] }}-{{ path_date_233[2] }}</div>
   {{ content }}
 </article>
 
