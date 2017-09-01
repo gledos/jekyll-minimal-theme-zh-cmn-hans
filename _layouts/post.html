@@ -6,7 +6,7 @@ layout: default
   <h1 class='post-title'>{{ page.title }}</h1>
   {% assign path_date_1 = "{{ page.path }}" | split: "/" %}
   {% assign path_date_2 = "{{ path_date_1.last }}" | split: "." %}
-  <div class="post-date">{{ path_date_2.first | file_date | date: %F }}</div>
+  <div class="post-date">{{ path_date_2.first | date: %F }}</div>
   <!--代码来源: https://stackoverflow.com/questions/14978474/how-to-show-the-modification-date-of-a-file-in-jekyll-->
   {{ content }}
 </article>
