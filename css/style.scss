@@ -1,6 +1,7 @@
 ---
 ###########
 # note: will result in an all-in-one-file stylesheet e.g. style.css
+# 原本字体大小是 20px
 ###########
 ---
 
@@ -10,7 +11,7 @@
 
 html {
   font-family: $font-family;
-  font-size:   20px;
+  font-size:   14px;
   line-height: 1.5;
 }
 
