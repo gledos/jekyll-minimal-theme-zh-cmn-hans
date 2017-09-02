@@ -1,4 +1,4 @@
-目前还有关于文章时间的代码没有完成
+**目前还有关于文章时间的代码没有完成**
 
 - [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
 - [汉化内容](#汉化内容)
