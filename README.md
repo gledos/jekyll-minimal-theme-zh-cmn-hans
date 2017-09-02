@@ -1,10 +1,9 @@
-> ├── [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
->
-> ├── **原 README.md 的汉化后的内容**
->
-> └── [汉化内容](#汉化内容)
+目前还有一部分没有完成
+- 关于文章时间的代码
 
-
+- [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
+- [汉化内容](#汉化内容)
+- 以下是原 README 汉化后的内容
 
 # 什么是 `jekyll-极简主题`?
 
@@ -151,13 +150,22 @@ in base/_reset.scss:
 ![CC0协议](https://publicdomainworks.github.io/buttons/zero88x31.png)
 主题和脚本专用于公共领域。 尽可能地使用它，不受任何限制。
 
-## 有问题和意见？
+## ~~有问题和意见？~~
 
-发送他们到 [wwwmake forum](http://groups.google.com/group/wwwmake).
-谢谢！
+~~发送他们到 [wwwmake forum](http://groups.google.com/group/wwwmake).
+谢谢！~~
+
+建议发给我(gledos)，但是我不一定有能力解决，就算能解决也会花上很多时间......
 
 ---
 
 # 汉化内容
 
-待续
+- 日期中国习惯化
+- 字体加入各种设备适合的中文字体(包括 Chrome OS)
+- 对字体大小和边距有所调整，更佳适合中文(但也许也不是最合适的)
+- 对README 和网站上首页的第一篇文章进行了汉化
+
+## 一些提示
+
+这个主题不需要在文章的头文件中写入 `date` 这一项多余的东西，本主题在经过我的修改(最大限度保留原设定)会直接寻找在 `_post/` 里面的文章中的 `YYYY-MM-DD` 格式的时间，所以就不需要出现两份时间了。（但是我目前还没有完全弄好，如果要弄一个about之类的页面是会输出不应该出现的东西的......）
