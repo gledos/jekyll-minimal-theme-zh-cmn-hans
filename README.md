@@ -1,5 +1,3 @@
-**目前还有关于文章时间的代码没有完成**
-
 - [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
 - [汉化内容](#汉化内容)
 - 以下是原 README 汉化后的内容
@@ -167,4 +165,8 @@ in base/_reset.scss:
 
 ## 一些提示
 
-这个主题不需要在文章的头文件中写入 `date` 这一项多余的东西，本主题在经过我的修改(最大限度保留原设定)会直接寻找在 `_post/` 里面的文章中的 `YYYY-MM-DD` 格式的时间，所以就不需要出现两份时间了。（但是我目前还没有完全弄好，如果要弄一个about之类的页面是会输出不应该出现的东西的......）
+这个主题不需要在文章的 mayl 头文件中写入 `date` 这一项多余的东西，本主题在经过我的修改(最大限度保留原设定)选择 `post` 模板时会直接寻找在 `_post/` 里面的文章中的 `YYYY-MM-DD` 格式的时间，所以就不需要出现两份时间了。
+
+- [liquid 模板语言中文文档](https://liquid.bootcss.com)
+- [jekyll 中新增的 liquid 过滤器(英文)](https://jekyllrb.com/docs/templates/)
+- [Shellphon 写的 liquid 用法笔记](http://blog.csdn.net/dont27/article/details/38097581)
