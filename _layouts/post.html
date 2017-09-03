@@ -6,6 +6,7 @@ layout: default
   <h1 class='post-title'>{{ page.title }}</h1>
   {% assign sinple_path_date = page.path | remove: "_posts/" | split: "-" %}
   <div class="post-date">{{ sinple_path_date[0] | append: "-" | append: sinple_path_date[1] | append: "-" | append: sinple_path_date[2] | date: "%F" }}</div>
+  <div class="post-date233">{{ page.path | date: "%F" }}</div>
   {{ content }}
 </article>
 
