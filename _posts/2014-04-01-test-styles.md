@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Test Theme Styles"
+title: "测试 CSS"
 ---
 
-# Heading 1
+# Heading 标题 1 
 
-## Heading 2
+## Heading 标题 2
 
-### Heading 3
+### Heading 标题 3
 
-#### Heading 4
+#### Heading 标题 4
 
-##### Heading 5
+##### Heading 标题 5
 
-###### Heading 6
+###### Heading 标题 6
 
 
 **Strange Case of Dr Jekyll and Mr Hyde** is the original
@@ -43,7 +43,7 @@ Robert Louis Stevenson Stevenson had long been intrigued by the idea...
 John Utterson, a lawyer, is on his weekly walk with his relative...
 
 
-### Lists
+### Lists / 列表
 
 Table of Contents:
 
@@ -100,7 +100,7 @@ Robert Louis Stevenson:
 
 
 
-### Blockquotes
+### Blockquotes / 引用文字
 
 Biographer Graham Balfour quoted Stevenson's wife Fanny Stevenson:
 
@@ -129,7 +129,7 @@ Quotes from "The Strange Case of Dr. Jekyll and Mr. Hyde":
 
 
 
-### Tables
+### Tables / 表格
 
 ---------------- | ------------------------ 
 Author           | Robert Louis Stevenson
@@ -142,7 +142,7 @@ Publisher        | Longmans, Green & Co.
 Publication date | 5 January 1886
 
 
-### Code n Code Blocks
+### Code n Code Blocks / 代码和代码块
 
 The `white-space` CSS property is used to to describe
 how white spaces inside the element is handled. Example:
