@@ -170,3 +170,9 @@ in base/_reset.scss:
 - [liquid 模板语言中文文档](https://liquid.bootcss.com)
 - [jekyll 中新增的 liquid 过滤器(英文)](https://jekyllrb.com/docs/templates/)
 - [Shellphon 写的 liquid 用法笔记](http://blog.csdn.net/dont27/article/details/38097581)
+
+## 推荐修改
+
+- 使用 liquid 进行生成 sitemap.xml [比如](https://github.com/jekyll/jekyll/blob/master/test/source/sitemap.xml)
+- 写长文要使用摘要 [Post excerpts - jekyll docs(英文)](https://jekyllrb.com/docs/posts/#post-excerpts) [中文](http://www.cnblogs.com/coderzh/p/jekyll-readmore.html)
+- 限制主页显示文章的数量，还可以加上分页。(但是 5 篇文章就一页简直浪费人生，建议 8 篇以上，因为观看者不去归档看标题，就是为了看主页中的摘要内容啊) [](https://jekyllrb.com/docs/pagination/)
