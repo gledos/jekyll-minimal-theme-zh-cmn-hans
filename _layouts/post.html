@@ -4,8 +4,10 @@ layout: default
 
 <article class='post'>
   <h1 class='post-title'>{{ page.title }}</h1>
+  {% if page.path contains "_post/" %}
   {% assign sinple_path_date = page.path | remove: "_posts/" | split: "-" %}
   <div class="post-date">{{ sinple_path_date[0] }}-{{ sinple_path_date[1] }}-{{ sinple_path_date[2] }}</div>
+  {% endif %}
   {{ content }}
 </article>
 
