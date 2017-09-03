@@ -8,6 +8,7 @@ author:
 ## 提示: 
 #  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
 #  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
+
 path: /jekyll-minimal-theme-zh-cmn-hans
 url:  'http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/'
 
