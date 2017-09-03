@@ -1,6 +1,8 @@
 - [源项目](https://github.com/henrythemes/jekyll-minimal-theme)
 - [汉化内容](#汉化内容)
-- 以下是原 README 汉化后的内容
+
+<details>
+<summary>点击展开原 README 汉化后的内容</summary>
 
 # 什么是 `jekyll-极简主题`?
 
@@ -154,7 +156,7 @@ in base/_reset.scss:
 
 建议发给我(gledos)，但是我不一定有能力解决，就算能解决也会花上很多时间......
 
----
+</details>
 
 # 汉化内容
 
