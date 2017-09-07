@@ -176,5 +176,5 @@ in base/_reset.scss:
 ## 推荐修改
 
 - 使用 liquid 进行生成 sitemap.xml [比如](https://github.com/jekyll/jekyll/blob/master/test/source/sitemap.xml)
-- 写长文要使用摘要 [Post excerpts - jekyll docs(英文)](https://jekyllrb.com/docs/posts/#post-excerpts) [中文](http://www.cnblogs.com/coderzh/p/jekyll-readmore.html)
+- 写长文要使用摘要 [Post excerpts - jekyll docs(英文)](https://jekyllrb.com/docs/posts/#post-excerpts)、[中文](http://www.cnblogs.com/coderzh/p/jekyll-readmore.html)
 - 限制主页显示文章的数量，还可以加上分页。(但是 5 篇文章就一页简直浪费人生，建议 8 篇以上，因为观看者不去归档看标题，就是为了看主页中的摘要内容啊) [](https://jekyllrb.com/docs/pagination/)
